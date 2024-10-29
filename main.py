@@ -16,7 +16,7 @@ st.set_page_config(
 st.markdown(
     """
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{encoded_image}" width="500">
+        <img src="data:image/png;base64,{encoded_image}" width="300">
     </div>
     """.format(
         encoded_image=base64.b64encode(open("./nasic.png", "rb").read()).decode()
