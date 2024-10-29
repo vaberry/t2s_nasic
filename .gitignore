@@ -1,0 +1,8 @@
+*.db
+.DS_Store
+.venv/
+.env
+.pycache/
+uploaded_files/
+test/
+.streamlit/
